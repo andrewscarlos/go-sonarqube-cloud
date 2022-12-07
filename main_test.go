@@ -8,3 +8,10 @@ func TestSum(t *testing.T) {
 		t.Error("The result must be 5")
 	}
 }
+
+func TestSub(t *testing.T) {
+	result := sub(2, 2)
+	if result != 0 {
+		t.Error("The result must be 0")
+	}
+}
